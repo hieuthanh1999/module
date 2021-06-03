@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="AHT_Stock::stock" title="Stock" translate="Stock" module="AHT_Stock" sortOrder="50"   resource="AHT_Stock::stock"/>
+		<add id="AHT_Stock::index" title="Stock" module="AHT_Stock" parent="AHT_Stock::stock" action="stock/index/" resource="AHT_Stock::index" sortOrder="55" />
+    </menu>
+</config>
